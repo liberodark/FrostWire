@@ -9,7 +9,7 @@ url="http://www.frostwire.com"
 license=('custom')
 depends=('xdg-utils'
          'jre')
-source_x86_64=("http://dl.frostwire.com/frostwire/${pkgver}/frostwire-${pkgver}.noarch.tar.gz")
+source_x86_64=("https://github.com/liberodark/FrostWire/releases/download/${pkgver}/frostwire-${pkgver}.noarch.tar.gz")
 source=($pkgname.desktop
         $pkgname.png)
         
